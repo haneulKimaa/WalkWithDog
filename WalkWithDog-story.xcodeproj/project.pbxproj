@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08456FC02586982600F2F452 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08456FBF2586982600F2F452 /* KakaoOpenSDK.framework */; };
+		084B510E25891CB600E32324 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B510D25891CB500E32324 /* UserInfoViewController.swift */; };
+		086EC3A52585DD5800925CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086EC3A42585DD5800925CA3 /* AppDelegate.swift */; };
+		086EC3A72585DD5800925CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086EC3A62585DD5800925CA3 /* SceneDelegate.swift */; };
+		086EC3A92585DD5800925CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086EC3A82585DD5800925CA3 /* ViewController.swift */; };
+		086EC3AC2585DD5800925CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086EC3AA2585DD5800925CA3 /* Main.storyboard */; };
+		086EC3AE2585DD5900925CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086EC3AD2585DD5900925CA3 /* Assets.xcassets */; };
+		086EC3B12585DD5900925CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086EC3AF2585DD5900925CA3 /* LaunchScreen.storyboard */; };
+		086EC3BA2585E09200925CA3 /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086EC3B92585E09200925CA3 /* logInViewController.swift */; };
+		086EC3C42585E5C400925CA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 086EC3C32585E5C400925CA3 /* GoogleService-Info.plist */; };
+		4BBA4DB4B3C29003556EA864 /* Pods_WalkWithDog_story.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB59289F9BBA9A2DBF381AC /* Pods_WalkWithDog_story.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0806FF2125869ED600BB4D08 /* KakaoOpenSDK-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KakaoOpenSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		08456FB72586905200F2F452 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		08456FBF2586982600F2F452 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoOpenSDK.framework; path = "../../../Downloads/KakaoOpenSDK-1.23.7/KakaoOpenSDK.framework"; sourceTree = "<group>"; };
+		084B510D25891CB500E32324 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		086EC3A12585DD5800925CA3 /* WalkWithDog-story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WalkWithDog-story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		086EC3A42585DD5800925CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		086EC3A62585DD5800925CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		086EC3A82585DD5800925CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		086EC3AB2585DD5800925CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		086EC3AD2585DD5900925CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086EC3B02585DD5900925CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		086EC3B22585DD5900925CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086EC3B92585E09200925CA3 /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		086EC3C32585E5C400925CA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0FA18DA8818D6ADE26FAEB38 /* Pods-WalkWithDog-story.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkWithDog-story.debug.xcconfig"; path = "Target Support Files/Pods-WalkWithDog-story/Pods-WalkWithDog-story.debug.xcconfig"; sourceTree = "<group>"; };
+		0FB59289F9BBA9A2DBF381AC /* Pods_WalkWithDog_story.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkWithDog_story.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A0A1424E4998D2ECE698E9 /* Pods-WalkWithDog-story.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkWithDog-story.release.xcconfig"; path = "Target Support Files/Pods-WalkWithDog-story/Pods-WalkWithDog-story.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086EC39E2585DD5800925CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBA4DB4B3C29003556EA864 /* Pods_WalkWithDog_story.framework in Frameworks */,
+				08456FC02586982600F2F452 /* KakaoOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086EC3982585DD5800925CA3 = {
+			isa = PBXGroup;
+			children = (
+				0806FF2125869ED600BB4D08 /* KakaoOpenSDK-Bridging-Header.h */,
+				086EC3A32585DD5800925CA3 /* WalkWithDog-story */,
+				086EC3A22585DD5800925CA3 /* Products */,
+				4A12132ADD89CB262C091B9B /* Pods */,
+				4824179AE780061473C7FE35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		086EC3A22585DD5800925CA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086EC3A12585DD5800925CA3 /* WalkWithDog-story.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086EC3A32585DD5800925CA3 /* WalkWithDog-story */ = {
+			isa = PBXGroup;
+			children = (
+				086EC3A42585DD5800925CA3 /* AppDelegate.swift */,
+				086EC3B92585E09200925CA3 /* logInViewController.swift */,
+				086EC3A62585DD5800925CA3 /* SceneDelegate.swift */,
+				086EC3A82585DD5800925CA3 /* ViewController.swift */,
+				086EC3AA2585DD5800925CA3 /* Main.storyboard */,
+				086EC3C32585E5C400925CA3 /* GoogleService-Info.plist */,
+				086EC3AD2585DD5900925CA3 /* Assets.xcassets */,
+				086EC3AF2585DD5900925CA3 /* LaunchScreen.storyboard */,
+				086EC3B22585DD5900925CA3 /* Info.plist */,
+				084B510D25891CB500E32324 /* UserInfoViewController.swift */,
+			);
+			path = "WalkWithDog-story";
+			sourceTree = "<group>";
+		};
+		4824179AE780061473C7FE35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08456FB72586905200F2F452 /* KakaoOpenSDK.framework */,
+				08456FBF2586982600F2F452 /* KakaoOpenSDK.framework */,
+				0FB59289F9BBA9A2DBF381AC /* Pods_WalkWithDog_story.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A12132ADD89CB262C091B9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA18DA8818D6ADE26FAEB38 /* Pods-WalkWithDog-story.debug.xcconfig */,
+				42A0A1424E4998D2ECE698E9 /* Pods-WalkWithDog-story.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086EC3A02585DD5800925CA3 /* WalkWithDog-story */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086EC3B52585DD5900925CA3 /* Build configuration list for PBXNativeTarget "WalkWithDog-story" */;
+			buildPhases = (
+				C3A489DFB13EE0FD56AF9097 /* [CP] Check Pods Manifest.lock */,
+				086EC39D2585DD5800925CA3 /* Sources */,
+				086EC39E2585DD5800925CA3 /* Frameworks */,
+				086EC39F2585DD5800925CA3 /* Resources */,
+				6A89EF343A0632255229E1FD /* [CP] Embed Pods Frameworks */,
+				71B88F6AAE8EDB30F8EC7B31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WalkWithDog-story";
+			productName = "WalkWithDog-story";
+			productReference = 086EC3A12585DD5800925CA3 /* WalkWithDog-story.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		086EC3992585DD5800925CA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					086EC3A02585DD5800925CA3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 086EC39C2585DD5800925CA3 /* Build configuration list for PBXProject "WalkWithDog-story" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 086EC3982585DD5800925CA3;
+			productRefGroup = 086EC3A22585DD5800925CA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086EC3A02585DD5800925CA3 /* WalkWithDog-story */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086EC39F2585DD5800925CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086EC3B12585DD5900925CA3 /* LaunchScreen.storyboard in Resources */,
+				086EC3C42585E5C400925CA3 /* GoogleService-Info.plist in Resources */,
+				086EC3AE2585DD5900925CA3 /* Assets.xcassets in Resources */,
+				086EC3AC2585DD5800925CA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A89EF343A0632255229E1FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalkWithDog-story/Pods-WalkWithDog-story-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalkWithDog-story/Pods-WalkWithDog-story-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalkWithDog-story/Pods-WalkWithDog-story-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71B88F6AAE8EDB30F8EC7B31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalkWithDog-story/Pods-WalkWithDog-story-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalkWithDog-story/Pods-WalkWithDog-story-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalkWithDog-story/Pods-WalkWithDog-story-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A489DFB13EE0FD56AF9097 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalkWithDog-story-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086EC39D2585DD5800925CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086EC3BA2585E09200925CA3 /* logInViewController.swift in Sources */,
+				086EC3A92585DD5800925CA3 /* ViewController.swift in Sources */,
+				084B510E25891CB600E32324 /* UserInfoViewController.swift in Sources */,
+				086EC3A52585DD5800925CA3 /* AppDelegate.swift in Sources */,
+				086EC3A72585DD5800925CA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		086EC3AA2585DD5800925CA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086EC3AB2585DD5800925CA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		086EC3AF2585DD5900925CA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086EC3B02585DD5900925CA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		086EC3B32585DD5900925CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		086EC3B42585DD5900925CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		086EC3B62585DD5900925CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA18DA8818D6ADE26FAEB38 /* Pods-WalkWithDog-story.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WXYTFH2K7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "WalkWithDog-story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AppAuth\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMAppAuth\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"KakaoSDKAuth\"",
+					"-framework",
+					"\"KakaoSDKCommon\"",
+					"-framework",
+					"\"KakaoSDKLink\"",
+					"-framework",
+					"\"KakaoSDKNavi\"",
+					"-framework",
+					"\"KakaoSDKStory\"",
+					"-framework",
+					"\"KakaoSDKTalk\"",
+					"-framework",
+					"\"KakaoSDKTemplate\"",
+					"-framework",
+					"\"KakaoSDKUser\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AuthenticationServices\"",
+					"-all_Load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.WalkWithDog-story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KakaoOpenSDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		086EC3B72585DD5900925CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A0A1424E4998D2ECE698E9 /* Pods-WalkWithDog-story.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WXYTFH2K7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "WalkWithDog-story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AppAuth\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMAppAuth\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"KakaoSDKAuth\"",
+					"-framework",
+					"\"KakaoSDKCommon\"",
+					"-framework",
+					"\"KakaoSDKLink\"",
+					"-framework",
+					"\"KakaoSDKNavi\"",
+					"-framework",
+					"\"KakaoSDKStory\"",
+					"-framework",
+					"\"KakaoSDKTalk\"",
+					"-framework",
+					"\"KakaoSDKTemplate\"",
+					"-framework",
+					"\"KakaoSDKUser\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AuthenticationServices\"",
+					"-all_Load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.WalkWithDog-story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KakaoOpenSDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086EC39C2585DD5800925CA3 /* Build configuration list for PBXProject "WalkWithDog-story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086EC3B32585DD5900925CA3 /* Debug */,
+				086EC3B42585DD5900925CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086EC3B52585DD5900925CA3 /* Build configuration list for PBXNativeTarget "WalkWithDog-story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086EC3B62585DD5900925CA3 /* Debug */,
+				086EC3B72585DD5900925CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 086EC3992585DD5800925CA3 /* Project object */;
+}
